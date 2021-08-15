@@ -1,0 +1,14 @@
+name: docker-custom-iac
+title: InSpec Profile
+maintainer: The Authors
+copyright: The Authors
+copyright_email: you@example.com
+license: Apache-2.0
+summary: An InSpec Compliance Profile
+version: 0.1.0
+supports:
+  platform: os
+depends:
+  - name: docker-cis-benchmark
+    git: https://github.com/dev-sec/cis-docker-benchmark.git
+    tag: 2.1.2
