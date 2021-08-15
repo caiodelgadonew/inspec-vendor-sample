@@ -1,6 +1,17 @@
 # Mentoria IAC -> Exemplo de Vendor Profile Inspec
 
-Como adicionar ou remover profiles
+## Como adicionar ou remover profiles
+
+> Mais informações consulte a [Documentação Oficial](https://docs.chef.io/inspec/profiles/)
+
+Estrutura de Diretórios
+```bash
+.
+├── controls
+│   └── docker.rb
+├── inspec.yml
+└── README.md
+```
 
 Crie um profile atraves do comando
 ```bash
